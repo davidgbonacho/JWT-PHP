@@ -1,0 +1,36 @@
+
+.jwt-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 260px;
+  font-family: sans-serif;
+}
+
+.jwt-login input {
+  padding: 10px;
+  font-size: 16px;
+  border: #ccc solid 1px;
+  border-radius: 10px;
+}
+
+.jwt-login button {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: #ccc solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.jwt-login button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.jwt-login p {
+  color: #c00;
+  margin: 0;
+}
